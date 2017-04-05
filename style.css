@@ -1,0 +1,120 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+margin: 0;
+padding: 0;
+}
+
+.cleaner {
+    clear:both;
+    visibility:hidden;
+    font-size:0;
+    height:0;
+    display:block;
+}
+
+#lienzo{
+	height: 300px;
+	width: 300px;
+}
+
+.loza{
+	height: 50px;
+	width: 50px;
+	float: left;
+/*	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  */
+	background-color: #E82C0C;
+}
+.loza:hover{
+	background-color: #FF530D;
+}
+.loza:active{
+	background-color: #FF0000;
+}
+
+.lozaText{
+	position: relative;
+	top: 9px;
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 1.8em;
+	cursor: default;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#puntajeJugador1{
+	width: 150px;
+	height: 50px;
+	margin-top: 5px ;
+	padding-top: 10px;
+	float: left;
+	text-align: center;
+	background-color: #8f0000;
+	color: #FFB71C;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 2em;
+	cursor: default;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#puntajeJugador2{
+	width: 150px;
+	height: 50px;
+	margin-top: 5px;
+	padding-top: 10px;
+	float: left;
+	text-align: center;
+	background-color: #8f0000;
+	color: #FFB71C;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 2em;
+	cursor: default;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#jugadorActual{
+	height: 5px;
+	width: 150px;
+	position: relative;
+	top: 305px;
+	background-color: yellow;
+}
+
+#titulo{
+	width: 300px;
+	height: 100px;
+//	margin-top: 5px;
+//	padding-top: 10px;
+	text-align: center;
+	color: #FFB71C;
+	background-color: #8f0000;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 5.5em;
+	cursor: default;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+#creditos{
+	color: #999;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 0.7em;
+	cursor: default;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
